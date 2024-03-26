@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Auréline Prié et Samuel Ribeiro">
+  <title>Tennis de table</title>
+  <link rel="stylesheet" href="../css/init.css">
+</head>
+
+<body onload="init()">
+  <div id="webgl-container">
+    <div id="webgl"></div>
+  </div>
+  <div id="form-container">
+    <form id="controle" action="mailto:toto@wanadoo.fr" method="post">
+      <table id="TableauCamera">
+        <tr>
+          <td>Données de la partie</td>
+          <td>Joueur 1</td>
+          <td>Joueur 2</td>
+        </tr>
+        <tr>
+          <td>Points</td>
+          <td><input type="number" id="j1p" name="j1" value="0"></td>
+          <td><input type="number" id="j2p" name="j2" value="0"></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <p id="results"></p>
+  <script type="text/javascript" src="../libs/three/three.js"></script>
+  <script type="text/javascript" src="../libs/three/controls/TrackballControls.js"></script>
+  <script type="text/javascript" src="../libs/other/ThreeBSP.js"></script>
+  <script type="text/javascript" src="../libs/util/dat.gui.js"></script>
+  <script type="text/javascript" src="../libs/util/Stats.js"></script>
+  <script type="text/javascript" src="../libs/util/util.js"></script>
+  <script type="text/javascript" src="../js/camera_lumiere.js"></script>
+  <script type="text/javascript" src="../js/init.js"></script>
+  <script type="text/javascript" src="../js/fonction_utile.js"></script>
+
+
+
+</body>
+
+</html>

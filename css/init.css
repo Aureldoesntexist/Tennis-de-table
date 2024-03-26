@@ -1,0 +1,78 @@
+.expo {
+    vertical-align: super;
+    text-align: center;
+}
+
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#webgl {
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+#TableauCamera {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 3%;
+  }
+
+  #TableauCamera td {
+    border: 1px solid #0b0b0b; 
+    padding: 8px;
+    font-weight: bolder;
+    text-align: center;
+    color: #111111; 
+  }
+
+  #j1p {
+    border: 5px solid  #FFFF00; 
+    color: #ff0000; 
+    font-weight: bolder;
+    background-color: #333333;
+  }
+
+  #j2p {
+    border: 5px solid #ff0000; 
+    color: #FFFF00; 
+    font-weight: bolder;
+    background-color: #333333;
+  }
+
+input[type='number'] {
+    background-color: #ffffff;
+
+}
+
+input[type='button'] {
+    width: 100%;
+    margin-top: 1%;
+    background-color: #99ff99;
+    color: #ff3333;
+}
+
+#divBouton {
+    float: right;
+    max-width: 10%;
+}
+
+#controleRepere {
+    float: left;
+    margin-right: 1%;
+    border: 3px solid #ffff00;
+    max-width: 30%;
+}
+
+fieldset {
+    color: #ffffff;
+    background-color: #333333;
+    font-weight: 900;
+    text-align: center;
+    width: 90%;
+}
